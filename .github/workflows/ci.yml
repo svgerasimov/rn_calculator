@@ -3,6 +3,8 @@ name: React Native calculator
 on:
   push:
     branches: ["develop"]
+  pull_request:
+    branches: ["develop"]
 
 jobs:
   validate:
