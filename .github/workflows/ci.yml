@@ -13,6 +13,6 @@ jobs:
       - name: Install NodeJS
         uses: actions/setup-node@v3
       - name: Install dependencies
-        run: yarn ci
+        run: yarn install
       - name: Run tests
-        run: yarn test
+        run: yarn test:ci
