@@ -10,7 +10,7 @@ export const Styles = StyleSheet.create({
     backgroundColor: myColors.blue,
     justifyContent: 'center',
     alignItems: 'center',
-    margin: 8,
+    margin: 9,
   },
   btnDark: {
     width: 72,
